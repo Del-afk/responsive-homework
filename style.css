@@ -6,3 +6,44 @@ font-family: 'Cormorant Garamond', serif;
 font-family: 'Fredericka the Great', cursive;
 font-family: 'Nanum Myeongjo', serif;
 End */
+.wrapper {
+  width: 100%;
+  /* max-width: 1440px; */
+  background-color: #1b1b1b;
+  overflow: hidden;
+  padding: 0;
+}
+.navbar-part {
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Fredericka the Great", cursive;
+}
+.navbar-container {
+  margin: 0;
+  padding: 0;
+}
+.main-page {
+  background-image: url("src/main.JPG");
+  background-size: 100%;
+  filter: grayscale(var(--value, 100%));
+  --value: 100%;
+  background-color: #1b1b1b;
+  width: 100%;
+  /* max-width: 1440px; */
+  height: 880px;
+  background-repeat: no-repeat;
+  /* max-height: 1000px; */
+}
+.introdoction {
+  /* position: absolute;
+  top: 89px;
+  left: 30px; */
+  backdrop-filter: blur(5px);
+  border-radius: 10%;
+  width: 370px;
+  height: max-content;
+  font-family: "Nanum Myeongjo", serif;
+  text-align: center;
+  padding: 30px 10px;
+  margin: 0 auto;
+}

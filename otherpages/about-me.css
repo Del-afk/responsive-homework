@@ -1,0 +1,24 @@
+/* CssFonts */
+/* font-family: 'Abel', sans-serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Nanum Myeongjo', serif;
+End */
+.wrapper {
+  width: 100%;
+  max-width: 1440px;
+  background-color: #1b1b1b;
+  overflow: hidden;
+  padding: 0;
+}
+.navbar-part {
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Fredericka the Great", cursive;
+}
+.navbar-container {
+  margin: 0;
+  padding: 0;
+}
