@@ -6,6 +6,9 @@ font-family: 'Cormorant Garamond', serif;
 font-family: 'Fredericka the Great', cursive;
 font-family: 'Nanum Myeongjo', serif;
 End */
+*, *::after, *::before {
+  box-sizing: border-box;
+}
 .wrapper {
   width: 100%;
   /* max-width: 1440px; */
@@ -23,27 +26,83 @@ End */
   padding: 0;
 }
 .main-page {
-  background-image: url("src/main.JPG");
+  background-image: url("src/JHZC2dd403.JPG");
   background-size: 100%;
   filter: grayscale(var(--value, 100%));
-  --value: 100%;
   background-color: #1b1b1b;
   width: 100%;
-  /* max-width: 1440px; */
   height: 880px;
   background-repeat: no-repeat;
-  /* max-height: 1000px; */
+  max-height: 1000px;
+  overflow: auto;
 }
 .introdoction {
-  /* position: absolute;
-  top: 89px;
-  left: 30px; */
   backdrop-filter: blur(5px);
   border-radius: 10%;
-  width: 370px;
+  width: 700px;
   height: max-content;
   font-family: "Nanum Myeongjo", serif;
   text-align: center;
   padding: 30px 10px;
-  margin: 0 auto;
+  margin: 30px auto;
+}
+.introdoction h1 {
+  font-size: 110px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 0px 6px black;
+}
+.introdoction h3 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 0px 6px black;
+}
+@media (max-width: 900px ){
+  .introdoction {
+    backdrop-filter: blur(5px);
+    border-radius: 10%;
+    width: 300px;
+    height: max-content;
+    font-family: "Nanum Myeongjo", serif;
+    text-align: center;
+    padding: 30px 10px;
+    margin: 14px auto;
+  }
+  .introdoction h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 0px 6px black;
+  }
+  .introdoction h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 0px 6px black;
+  }
+}
+@media (max-width: 400px ){
+  .introdoction {
+    backdrop-filter: blur(5px);
+    border-radius: 10%;
+    width: 250px;
+    height: max-content;
+    font-family: "Nanum Myeongjo", serif;
+    text-align: center;
+    padding: 30px 10px;
+    margin: 12px auto;
+  }
+  .introdoction h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 0px 6px black;
+  }
+  .introdoction h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 0px 6px black;
+  }
 }
