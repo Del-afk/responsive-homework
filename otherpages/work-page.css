@@ -1,0 +1,228 @@
+/* CssFonts */
+/* font-family: 'Abel', sans-serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Nanum Myeongjo', serif;
+End */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+/* navigation part css */
+.wrapper {
+  width: 100%;
+  background-color: #1b1b1b;
+  overflow: hidden;
+  padding: 0;
+}
+.navbar-part {
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Fredericka the Great", cursive;
+}
+.navbar-container {
+  margin: 0;
+  padding: 0;
+}
+.description {
+    margin: 50px auto;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    letter-spacing: 2px;
+}
+/* gallery part css */
+.gallery {
+    width: 80%;
+    margin: 30px auto;
+  }
+  .gallery .row {
+    justify-content: space-between;
+    margin: 20px auto;
+  }
+  .slider {
+    max-width: 400px;
+    margin: 10px auto;
+    filter: grayscale(var(--value, 100%));
+  }
+  .slider:hover {
+    filter: none;
+    transition: all 300ms ease-in-out;
+  }
+/* footer part css */
+.footer {
+    width: 100%;
+    background-color: #1b1b1b;
+  }
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 90%;
+    height: max-content;
+    padding: 0;
+  }
+  .logo-place {
+    width: 30%;
+  }
+  .footer-logo {
+    width: 240px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  .social-media {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: center;
+  }
+  .social-media i {
+    width: 40px;
+    height: auto;
+    filter: invert(1);
+    border-radius: 5px;
+  }
+  .social-media i:hover {
+    transition: all 600ms ease-in-out;
+    filter: drop-shadow(0px 0px 5px red) invert(75%);
+  }
+  .all-right {
+    display: block;
+    width: 30%;
+    padding: 25px;
+  }
+  .all-right h4 {
+    font-size: 14px;
+    color: aliceblue;
+    font-family: "Cormorant Garamond", serif;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .all-right h4:hover {
+    transition: all 300ms ease-in-out;
+    filter: drop-shadow(0px 0px 5px rgb(0, 179, 255)) invert(5%);
+  }
+  .all-right a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  @media (max-width: 700px) {
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin: 0 auto;
+      width: 100%;
+      padding: 0;
+    }
+    .logo-place {
+      width: 50%;
+    }
+    .footer-logo {
+      width: 240px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    .social-media {
+      display: flex;
+      align-items: center;
+      width: 50%;
+      justify-content: center;
+    }
+    .social-media i {
+      width: 40px;
+      height: auto;
+      filter: invert(1);
+      border-radius: 5px;
+    }
+    .social-media i:hover {
+      transition: all 600ms ease-in-out;
+      filter: drop-shadow(0px 0px 5px red) invert(75%);
+    }
+    .all-right {
+      display: block;
+      width: 50%;
+      padding: 25px;
+    }
+    .all-right h4 {
+      font-size: 14px;
+      color: aliceblue;
+      font-family: "Cormorant Garamond", serif;
+      letter-spacing: 3px;
+      text-decoration: none;
+      text-align: center;
+    }
+    .all-right h4:hover {
+      transition: all 300ms ease-in-out;
+      filter: drop-shadow(0px 0px 5px rgb(0, 179, 255)) invert(5%);
+    }
+    .all-right a {
+      text-decoration: none;
+      color: aliceblue;
+    }
+  }
+  @media (max-width: 400px) {
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin: 0 auto;
+      width: 100%;
+      height: 100px;
+      padding: 0;
+    }
+    .logo-place {
+      width: 100%;
+    }
+    .footer-logo {
+      width: 240px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    .social-media {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: center;
+    }
+    .social-media i {
+      width: 40px;
+      height: auto;
+      filter: invert(1);
+      border-radius: 5px;
+    }
+    .social-media i:hover {
+      transition: all 600ms ease-in-out;
+      filter: drop-shadow(0px 0px 5px red) invert(75%);
+    }
+    .all-right {
+      display: block;
+      width: 100%;
+      padding: 25px;
+    }
+    .all-right h4 {
+      font-size: 14px;
+      color: aliceblue;
+      font-family: "Cormorant Garamond", serif;
+      letter-spacing: 3px;
+      text-decoration: none;
+      text-align: center;
+    }
+    .all-right h4:hover {
+      transition: all 300ms ease-in-out;
+      filter: drop-shadow(0px 0px 5px rgb(0, 179, 255)) invert(5%);
+    }
+    .all-right a {
+      text-decoration: none;
+      color: aliceblue;
+    }
+  }
+  
